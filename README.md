@@ -25,11 +25,13 @@ warnings.filterwarnings('ignore')
 #Gives a quick description of the data
 vaccine_data.describe()
 ```
-## US Total Vaccinations
-![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/US_total_vacc_scatterplot.png?raw=true)
+
 
 ## Covid features scatterplot matrix
 ![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/covid_features_pairplot.png?raw=true)
+
+## US Total Vaccinations
+![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/US_total_vacc_scatterplot.png?raw=true)
 
 ## Total Vaccinations for major Countries
 ![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/total_vacc_for_six_countries.png?raw=true)
