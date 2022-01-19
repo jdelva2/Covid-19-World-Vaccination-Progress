@@ -24,8 +24,7 @@ warnings.filterwarnings('ignore')
 ```markdown
 #Gives a quick description of the data
 vaccine_data.describe()
-
+```
 ![image](https://user-images.githubusercontent.com/73621950/150191700-d83e32fd-f228-4598-8823-67d8ea32d153.png)
 
 
-```
