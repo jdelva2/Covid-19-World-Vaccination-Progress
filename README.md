@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# [Covid-19 World Vaccination Progress](https://jdelva2.github.io/Covid-19-World-Vaccination-Progress/)
 
-You can use the [editor on GitHub](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Planning the Project
+### The Covid-19 event has been a very troubling time for all of us around the world. Due to this, I plan to use this project to conduct a study on the amount of people getting vaccinated and leverage off fear that some people have about the virus. With this I hope to share this with family members and close friends that getting fully vaccinated is one step closer to helping combat the virus.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Questions worth discovering
+#### - How has the Covid Vaccination Process progressed throughout the year?
+#### - What does the total vaccination progress for certain countries look like? i.e U.S, Mexico, Canada, China, UK, etc.
+#### -What does the daily vaccination progress look like for certain countries?
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+## Loading in libraries/modules
 ```markdown
-Syntax highlighted code block
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+import warnings
+warnings.filterwarnings('ignore')
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Data Pre-Processing
+### Getting a glimpse of the data
+```markdown
+#Gives a quick description of the data
+vaccine_data.describe()
+```
