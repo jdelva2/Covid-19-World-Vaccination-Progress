@@ -19,8 +19,16 @@ The Covid-19 event has been a very troubling time for all of us around the world
 
 Here we will track the number of covid cases over time.
 
-![]()
+![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/num_cases_line_plot.png?raw=true)
 
+## US Covid Deaths
+Here we can track the number of deaths that occurred in the US.
+![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/num_deaths_line_plot.png?raw=true)
+
+## Log Covid Cases vs Covid Deaths
+The growth of the number of cases far exceeded the number of covid deaths. Thus a log transform was conducted to better get a results of this pattern.
+
+![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/log_cases_deaths_line_plot.png?raw=true)
 
 ## US Total Vaccinations
 
@@ -28,11 +36,6 @@ It's important to note that the first set of US vaccines rolled out in Dec 2020.
 
 ![](https://github.com/jdelva2/Covid-19-World-Vaccination-Progress/blob/main/Plots%20and%20Graph%20Results/US_total_vacc_scatterplot.png?raw=true)
 
-## Covid Cases vs Total Vaccinations
-
-We can see some sort of correlation. As number of cases continue, total vaccinations also continue. Lets explore this more with a scatterplot.
-
-![]()
 
 ## Total Vaccinations for major Countries
 
